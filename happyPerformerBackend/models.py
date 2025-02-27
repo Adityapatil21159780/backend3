@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from django.db import models
 from .validators import validate_image_extension
 from django.contrib.postgres.fields import DateTimeRangeField
@@ -1177,7 +1177,7 @@ class Reaction(models.Model):
     user_email = models.CharField(max_length=100)  # Email of the user reacting
     emoji = models.CharField(max_length=10)  # The emoji used for the reaction
     date = models.DateTimeField(auto_now_add=True)
-=======
+
 from django.db import models
 from .validators import validate_image_extension
 from django.contrib.postgres.fields import DateTimeRangeField
@@ -2356,4 +2356,4 @@ class Reaction(models.Model):
     user_email = models.CharField(max_length=100)  # Email of the user reacting
     emoji = models.CharField(max_length=10)  # The emoji used for the reaction
     date = models.DateTimeField(auto_now_add=True)
->>>>>>> 174a167 (backend1)
+
