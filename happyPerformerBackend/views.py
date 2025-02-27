@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import json
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseNotAllowed , JsonResponse, HttpResponseBadRequest
@@ -9148,7 +9148,7 @@ def task_delete(request, task_id):
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=400)
     else:
-=======
+
 import json
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseNotAllowed , JsonResponse, HttpResponseBadRequest
@@ -18298,5 +18298,4 @@ def task_delete(request, task_id):
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=400)
     else:
->>>>>>> 174a167 (backend1)
-        return JsonResponse({'error': 'Invalid request method'}, status=405)
+    {'error': 'Invalid request method'}, status=405)
